@@ -1,3 +1,8 @@
+// var x = "liya";
+// var x = "nouha";
+// console.log(x)
+
 var x = "liya";
-var x = "nouha"
+var y = "nouha"
+x = y;
 console.log(x)
