@@ -1,0 +1,11 @@
+funtion are block of code design to perform particular task
+1-function declarartion 
+2-function expression
+3-arrow fuction
+4-call back function
+5-IIFE (immediately invoked fuction expression)
+
+PRE-DEFINED  FUCNTION (built-in function)
+1-string
+2-date
+3-math funtion

@@ -1,0 +1,10 @@
+//Predefined Functions (built-in functions)
+//Predefined Functions are function that are provide by javascript
+
+//why we use this
+1. time saving . no need to call from scrach
+2. increase code readiability
+3. optimized
+
+--example--
+math function, string function date function

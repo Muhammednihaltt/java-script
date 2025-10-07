@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container"></div>
+
+    <script>
+        // 1. create a new <p> Element
+        const newParagrapgh = document.createElement("p");
+
+
+        // 2. add text contents inside <p>
+            newParagrapgh.textContent = 'Hello, this is a new para';
+
+            // 3. append it to an existing Element <div>
+            document.getElementById('container').appendChild(newParagrapgh);
+    </script>
+</body>
+</html>
