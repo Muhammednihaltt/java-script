@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="box" style="width:150px; height:150px; background-color:lightgreen;">
+  Hover over me
+</div>
+
+<script>
+const box = document.getElementById("box");
+
+box.addEventListener("mouseenter", function() {
+  box.style.backgroundColor = "orange";
+  box.textContent = "Mouse Entered!";
+});
+
+box.addEventListener("mouseleave", function() {
+  box.style.backgroundColor = "lightgreen";
+  box.textContent = "Mouse Left!";
+});
+</script>
+
+</body>
+</html>

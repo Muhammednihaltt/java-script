@@ -1,0 +1,45 @@
+what is the diffrent between synchronous and asynchoronous operation
+
+what is dom
+
+what are the data type in js
+
+what is an events in js
+
+what are closure in js
+
+what is the different between map and forEach
+
+what is callback function in js
+
+what is inheritence in js
+
+what is purpose of trycatch satement
+
+what is the purposeof addEventListner in method in js
+
+what is different between qurey selector and qurey selectorAll
+
+what is the different between null and undefined
+
+what is the different between equal and strictly equal
+
+what is hoisting in js
+
+what is the "this keyword" in js
+
+what are the diffrent way to define a function in js
+
+what is the purpose of let in var const
+
+different between primetive and nonprimetive data type
+
+what the use of spread operators 
+
+what is ternary operators
+
+what is rest parameters
+
+
+
+
