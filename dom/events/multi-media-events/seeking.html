@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Audio Seeking Event Example</title>
+</head>
+<body>
+  <h2>🎵 Audio Seeking Example</h2>
+
+  <audio id="myAudio" controls>
+    <source src="./WhatsApp Audio 2025-10-13 at 13.01.29_efa72cef.mp3    " type="audio/mpeg">
+    Your browser does not support the audio tag.
+  </audio>
+
+  <p id="status">Status: Waiting for action...</p>
+
+  <script>
+    const audio = document.getElementById("myAudio");
+    const status = document.getElementById("status");
+
+    // Fired when the user starts seeking
+    audio.addEventListener("seeking", () => {
+      status.textContent = "Status: User started seeking...";
+      console.log("User started seeking...");
+    });
+
+    // Fired when the user finishes seeking
+    audio.addEventListener("seeked", () => {
+      status.textContent = "Status: User finished seeking!";
+      console.log("User finished seeking!");
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="box" style="width:300px; height:100px; overflow:auto; border:1px solid black;">
+  <p>Some long content here...</p>
+  <p>Scroll inside this box to trigger event.</p>
+  <p>More text...</p>
+</div>
+
+<script>
+  let box = document.getElementById("box");
+
+  box.addEventListener("scroll", () => {
+    console.log("You are scrolling inside the box!");
+  });
+</script>
+
+</body>
+</html>
