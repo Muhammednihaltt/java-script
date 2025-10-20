@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Audio Event Error</h2>
+    <audio id="audioError" controls>
+        <source src="./ayyan.mp3" type="audio/mp3">
+    </audio>
+
+    <p id="errorMsg" style="color: red; display: none;"></p>
+
+<script>
+    const audioError = document.getElementById('audioError');
+    const errorMessage   = document.getElementById('errorMsg');
+
+//listen for error on the source element
+
+    const source = audioError.querySelector('source');
+    source.addEventListener('error', () => {
+        errorMessage.textContent = 'audio failed to load!';
+        errorMessage.style.display = 'block';
+        console.log('failed');
+        
+    })
+
+</script>   
+</body>
+</html>
